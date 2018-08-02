@@ -9,11 +9,11 @@ class Ideone
 	{
 		Scanner sc=new Scanner(System.in);
 		int n=sc.nextInt();
-		int result=0;
+		int result;
 		for(int i=1;i<=5;i++)
 		{
 			result=n*i;
-			System.out.println(result);
+			System.out.println(result+" ");
 		}
 		
 	}
